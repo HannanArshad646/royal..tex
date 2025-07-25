@@ -1,0 +1,201 @@
+  /* ✅ RESPONSIVE DESIGN FOR MOBILE PHONES */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .product-gallery {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    section {
+      padding: 30px 15px;
+    }
+
+    .contact p {
+      font-size: 16px;
+    }
+
+    h1 {
+      font-size: 28px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    .logo {
+      height: 50px;
+    }
+
+    .navbar a {
+      font-size: 15px;
+    }
+
+    .video video {
+      width: 100%;
+    }
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+
+/* Reset default browser margin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-section {
+  height: 100vh;
+  width: 100%;
+  background-image: url('images/background-picture1.jpg'); /* اپنی بڑی فوٹو کا نام */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 30px;
+
+}
+
+/* Logo at top-right */
+.logo {
+  width: 300px;
+  height: auto;
+  margin-right: 800px;
+}
+
+/* Welcome text at bottom center */
+.welcome-text {
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to right, #281848, #ff6600);
+  color: white;
+  font-size: 28px;
+  padding: 20px 0;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+                                                                                                                                                                 
+}
+  header h1 {
+    font-size: 32px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: inline-block;
+    margin-top: 30px;
+  }
+
+  .mission-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .mission-section img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .mission-section p {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 0 10%;
+  }
+
+  .departments {
+    margin-top: 60px;
+  }
+
+  .departments h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #0077b6;
+    margin-bottom: 30px;
+  }
+
+  .department {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #0077b6;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .department h3 {
+    color: #0077b6;
+    margin-bottom: 10px;
+  }
+
+  .cut-pack {
+    background: #eaf6f6;
+    padding: 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+
+  .cut-pack h2 {
+    text-align: center;
+    color: #004466;
+    margin-bottom: 20px;
+  }
+
+  .gallery {
+    margin-top: 60px;
+  }
+
+  .gallery h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .gallery-grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    transition: transform 0.3s;
+  }
+
+  .gallery-grid img:hover {
+    transform: scale(1.05);
+  }
